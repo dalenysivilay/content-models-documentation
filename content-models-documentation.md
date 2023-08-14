@@ -373,7 +373,7 @@ The URL pattern for accessing the Splash Banner content type is '/:title', where
 
 - **Custom Background (Boolean)**
 
-  - Enables usage of custom background. This field is a mandatory field that default to `false`
+  - Enables usage of custom background. This field is a mandatory field that default to `False`
 
 - **Gallery Background (Group)**
 
@@ -425,9 +425,9 @@ The URL pattern for accessing the Splash Banner content type is '/:title', where
     - **Product Card Display Style (Dropdown)** Choices:
       - Compact
       - Informative
-    - **Show Action Button (Boolean)** Default value is 'False'
-    - **Show Reviews (Boolean)** Default value is 'False'
-    - **Inventory Aware Listings** Default value is 'False'
+    - **Show Action Button (Boolean)** Default value is `False`
+    - **Show Reviews (Boolean)** Default value is `False`
+    - **Inventory Aware Listings** Default value is `False`
 
 - **Category Content (Group)**
 
