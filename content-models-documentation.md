@@ -387,6 +387,7 @@ The URL pattern for accessing the Splash Banner content type is '/:title', where
         - 25%
         - 10%
         - 0%
+    - ** Background Color (Extension - Color Picker)**
 
 - **Carousel Options (Group)**
 
