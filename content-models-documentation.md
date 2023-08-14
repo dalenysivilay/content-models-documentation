@@ -351,3 +351,100 @@ The Splash Banner content type is used to create banners for display on a page. 
 The URL pattern for accessing the Splash Banner content type is '/:title', where ':title' should be replaced with the title of a specific Splash Banner content. The URL prefix is '/'.
 
 ---
+
+### _Gallery
+
+#### Fields:
+
+- **Title (Text)**
+
+  - The title of the Gallery.
+
+- **Gallery Heading and URL (Text)**
+
+  - 
+
+- **Gallery Style (Dropdown)**
+
+  - Dropdown to select the type of carousel. Choices include:
+    - Block
+    - Carousel
+    - Slider
+
+- **Custom Background (Boolean)**
+
+  - Enables usage of custom background. This field is a mandatory field that default to `false`
+
+- **Gallery Background (Group)**
+
+  - This is a group that contains the following field(s):
+    - **Background Transparency (Dropdown)**
+      - Dropdown to select the level of transparency. Choices include:
+        - 100%
+        - 90%
+        - 75%
+        - 50%
+        - 25%
+        - 10%
+        - 0%
+
+- **Carousel Options (Group)**
+
+  - This is a group that contains the following field(s):
+    - **Show as Hero Slider (Boolean)**
+    - **Enable Autoplay (Boolean)**
+  
+- **Item Curation (Dropdown)**
+
+  - Dropdown to customize how items are presented. This field is mandatory. Choices include:
+    - Costco
+    - AdButler
+    - Adobe
+    - Criteo
+    - new curation item 1
+    - new curation item 2
+
+- **3rd Party Curation (Group)**
+
+  - Fields within this group include:
+    - **Campaign Id (Text)**
+
+- **Costco Curation (Group)**
+
+  - Field(s) within this group include:
+    - **Item Type (Dropdown)**
+      - Choices include:
+        - Banner
+        - Marketing Campaign
+        - Product
+        - Category
+
+- **Product Display Style (Group)**
+
+  - This is a group of fields that controls how the product is displayed. Fields within this group include:
+    - **Product Card Display Style (Dropdown)** Choices:
+      - Compact
+      - Informative
+    - **Show Action Button (Boolean)** Default value is 'False'
+    - **Show Reviews (Boolean)** Default value is 'False'
+    - **Inventory Aware Listings** Default value is 'False'
+
+- **Category Content (Group)**
+
+  - Group that controls how the images appear, with the following field(s):
+    - **Image Form Factor (Dropdown)**
+      - Controls the border radius of the image. Choices include:
+        - Square
+        - Rounded
+        - Circular
+
+- **Banner Content (Group)**
+
+  - Field(s) within this group includes:
+    - **Add filed (Text)**
+
+- **Product Content (Group)**
+
+  - Field(s) within this group includes:
+    - **Reference to Product List (Text)**
+
