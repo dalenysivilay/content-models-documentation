@@ -373,7 +373,7 @@ The URL pattern for accessing the Splash Banner content type is '/:title', where
 
 - **Custom Background (Boolean)**
 
-  - Enables usage of custom background. This field is a mandatory field that default to `False`
+  - Enables usage of custom background. This field is a mandatory field that defaults to `False`
 
 - **Gallery Background (Group)**
 
